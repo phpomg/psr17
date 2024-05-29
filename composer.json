@@ -1,0 +1,16 @@
+{
+    "name": "phpomg/psr17",
+    "description": "psr17",
+    "type": "library",
+    "license": "GPL-3.0",
+    "require": {
+        "psr/http-message": "^2.0",
+        "psr/http-factory": "^1.1",
+        "guzzlehttp/psr7": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPOMG\\Psr17\\": "src/"
+        }
+    }
+}
